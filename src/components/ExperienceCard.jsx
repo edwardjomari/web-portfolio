@@ -19,7 +19,7 @@ export default function ExperienceCard() {
     ];
 
     return (
-        <div className="md:col-span-1 md:row-span-3 bg-zinc-900 rounded-3xl p-6 border border-zinc-800 flex flex-col">
+        <div className="md:col-span-1 md:row-span-2 bg-zinc-900 rounded-3xl p-6 border border-zinc-800 flex flex-col">
             <div className="flex items-center gap-2 text-gray-400 text-sm mb-6">
                 <div className="bg-emerald-500/10 p-2 rounded-full">
                     <svg className="w-4 h-4 text-emerald-500" fill="none" stroke="currentColor" viewBox="0 0 24 24">

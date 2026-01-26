@@ -3,6 +3,8 @@ import TechStackCard from './components/TechStackCard';
 import LocationCard from './components/LocationCard';
 import ExperienceCard from './components/ExperienceCard';
 import ProjectCard from './components/ProjectCard';
+import ConnectCard from './components/ConnectCard';
+import CTACard from './components/CTACard';
 
 function App() {
   return (
@@ -15,10 +17,12 @@ function App() {
           <LocationCard />
           <ExperienceCard />
           <ProjectCard />
+          <ConnectCard />
+          <CTACard />
         </div>
 
         <footer className="mt-8 text-center text-gray-600 text-sm">
-          <p>© 2026 Your Name. Built with passion.</p>
+          <p>© 2026 Edward Jomari Garcia. Built with passion.</p>
         </footer>
       </div>
     </div>
