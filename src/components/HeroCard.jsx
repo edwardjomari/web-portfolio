@@ -21,7 +21,7 @@ export default function HeroCard() {
                         <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M10 6H6a2 2 0 00-2 2v10a2 2 0 002 2h10a2 2 0 002-2v-4M14 4h6m0 0v6m0-6L10 14" />
                     </svg>
                 </button>
-                <button className="bg-gray-100 hover:bg-gray-200 text-gray-900 px-6 py-3 rounded-full transition-colors font-medium border border-gray-300">
+                <button className="bg-transparent hover:bg-blue-600 hover:text-white px-6 py-3 rounded-full transition-all duration-300 font-medium border border-gray-300 text-gray-800">
                     Get in Touch
                 </button>
             </div>
