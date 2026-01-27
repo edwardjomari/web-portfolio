@@ -31,7 +31,7 @@ export default function ProjectCard() {
                             <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M3 7v10a2 2 0 002 2h14a2 2 0 002-2V9a2 2 0 00-2-2h-6l-2-2H5a2 2 0 00-2 2z" />
                         </svg>
                     </div>
-                    <span className="text-gray-900 font-bold text-lg">Recent Projects</span>
+                    <span>Recent Projects</span>
                 </div>
                 <button className="flex items-center gap-1 text-gray-700 font-medium hover:text-blue-600 transition-colors text-sm">
                     View All
