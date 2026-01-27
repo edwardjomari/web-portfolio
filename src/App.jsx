@@ -8,20 +8,20 @@ import CTACard from './components/CTACard';
 
 function App() {
   return (
-    <div className="min-h-screen bg-black text-white p-6 md:p-12">
+    <div className="min-h-screen bg-white text-gray-900 p-4 sm:p-6 md:p-8 lg:p-12">
       <div className="max-w-7xl mx-auto">
 
-        <div className="grid grid-cols-1 md:grid-cols-3 lg:grid-cols-4 gap-4 auto-rows-[minmax(180px,auto)]">
+        <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-4 auto-rows-[minmax(180px,auto)]">
           <HeroCard />
           <TechStackCard />
           <LocationCard />
+          <ConnectCard />
           <ExperienceCard />
           <ProjectCard />
-          <ConnectCard />
           <CTACard />
         </div>
 
-        <footer className="mt-8 text-center text-gray-600 text-sm">
+        <footer className="mt-8 text-center text-gray-500 text-sm">
           <p>© 2026 Edward Jomari Garcia. Built with passion.</p>
         </footer>
       </div>
