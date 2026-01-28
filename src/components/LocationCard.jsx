@@ -1,6 +1,6 @@
 export default function LocationCard() {
     return (
-        <div className="col-span-1 bg-white dark:bg-[#1e1e1e] rounded-3xl p-6 lg:p-5 border border-gray-200 dark:border-[#2a2a2a] flex flex-col justify-between shadow-sm opacity-90 hover:opacity-100 transition-all ease-out duration-300 transform hover:-translate-y-0.5 hover:shadow-lg">
+        <div className="h-full bg-white dark:bg-[#1e1e1e] rounded-3xl p-6 lg:p-5 border border-gray-200 dark:border-[#2a2a2a] flex flex-col justify-between shadow-sm opacity-90 hover:opacity-100 transition-all ease-out duration-300 transform hover:-translate-y-0.5 hover:shadow-lg">
             <div>
                 <div className="flex items-start gap-2 text-gray-700 dark:text-gray-300 text-sm font-medium mb-3">
                     <svg className="w-4 h-4 mt-0.5" fill="none" stroke="currentColor" viewBox="0 0 24 24">

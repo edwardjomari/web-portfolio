@@ -1,6 +1,6 @@
 export default function ConnectCard() {
     return (
-        <div className="col-span-1 bg-white dark:bg-[#1e1e1e] rounded-3xl p-6 lg:p-5 border border-gray-200 dark:border-[#2a2a2a] shadow-sm opacity-90 hover:opacity-100 transition-all ease-out duration-300 transform hover:-translate-y-0.5 hover:shadow-lg">
+        <div className="h-full bg-white dark:bg-[#1e1e1e] rounded-3xl p-6 lg:p-5 border border-gray-200 dark:border-[#2a2a2a] shadow-sm opacity-90 hover:opacity-100 transition-all ease-out duration-300 transform hover:-translate-y-0.5 hover:shadow-lg">
             <h3 className="text-sm text-gray-700 dark:text-gray-300 font-medium mb-6">Connect</h3>
             <div className="grid grid-cols-2 gap-3">
                 <a

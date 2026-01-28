@@ -23,7 +23,7 @@ export default function ProjectCard() {
     ];
 
     return (
-        <div className="col-span-1 sm:col-span-2 lg:col-span-3 bg-white dark:bg-[#1e1e1e] rounded-3xl p-5 lg:p-4 border border-gray-200 dark:border-[#2a2a2a] shadow-sm opacity-90 hover:opacity-100 transition-all ease-out duration-300 transform hover:-translate-y-0.5 hover:shadow-lg flex flex-col">
+        <div className="h-full bg-white dark:bg-[#1e1e1e] rounded-3xl p-5 lg:p-4 border border-gray-200 dark:border-[#2a2a2a] shadow-sm opacity-90 hover:opacity-100 transition-all ease-out duration-300 transform hover:-translate-y-0.5 hover:shadow-lg flex flex-col">
             <div className="flex items-center justify-between mb-4 lg:mb-3">
                 <div className="flex items-center gap-2 text-gray-700 dark:text-gray-300 text-sm font-medium">
                     <div className="bg-blue-600/10 dark:bg-emerald-500/20 p-2 rounded-full">

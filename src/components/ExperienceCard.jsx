@@ -19,7 +19,7 @@ export default function ExperienceCard() {
     ];
 
     return (
-        <div className="col-span-1 sm:col-span-2 lg:col-span-1 lg:row-span-2 bg-white dark:bg-[#1e1e1e] rounded-3xl p-6 lg:p-5 border border-gray-200 dark:border-[#2a2a2a] flex flex-col shadow-sm opacity-90 hover:opacity-100 transition-all ease-out duration-300 transform hover:-translate-y-0.5 hover:shadow-lg">
+        <div className="h-full bg-white dark:bg-[#1e1e1e] rounded-3xl p-6 lg:p-5 border border-gray-200 dark:border-[#2a2a2a] flex flex-col shadow-sm opacity-90 hover:opacity-100 transition-all ease-out duration-300 transform hover:-translate-y-0.5 hover:shadow-lg">
             <div className="flex items-center gap-2 text-gray-700 dark:text-gray-300 text-sm font-medium mb-5 lg:mb-4">
                 <div className="bg-blue-600/10 dark:bg-emerald-500/20 p-2 rounded-full">
                     <svg className="w-5 h-5 text-blue-600 dark:text-emerald-400" fill="none" stroke="currentColor" viewBox="0 0 24 24">

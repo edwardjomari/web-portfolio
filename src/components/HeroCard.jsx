@@ -4,7 +4,7 @@ export default function HeroCard() {
     const navigate = useNavigate();
 
     return (
-        <div className="col-span-1 sm:col-span-2 sm:row-span-2 bg-white dark:bg-[#1e1e1e] rounded-3xl p-6 sm:p-8 lg:p-6 border border-gray-200 dark:border-[#2a2a2a] flex flex-col justify-between gap-6 sm:gap-8 lg:gap-4 shadow-sm opacity-90 hover:opacity-100 transition-all ease-out duration-300 transform hover:-translate-y-0.5 hover:shadow-lg">
+        <div className="h-full bg-white dark:bg-[#1e1e1e] rounded-3xl p-6 sm:p-8 lg:p-6 border border-gray-200 dark:border-[#2a2a2a] flex flex-col justify-between gap-6 sm:gap-8 lg:gap-4 shadow-sm opacity-90 hover:opacity-100 transition-all ease-out duration-300 transform hover:-translate-y-0.5 hover:shadow-lg">
             <div className="inline-flex items-center gap-2 text-sm text-gray-700 dark:text-gray-300 font-medium bg-transparent rounded-full px-4 py-2 border border-gray-300 dark:border-[#3a3a3a] w-fit">
                 <div className="w-2 h-2 bg-green-600 dark:bg-emerald-500 rounded-full animate-pulse"></div>
                 <span>Available for work</span>

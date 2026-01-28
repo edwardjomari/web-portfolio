@@ -67,7 +67,7 @@ export default function AboutMe({ darkMode, toggleDarkMode }) {
 
             <div className="max-w-6xl mx-auto px-4 sm:px-6 py-12">
                 {/* Section 1: Profile & About */}
-                <section className="mb-16">
+                <section className="mb-16 animate-fade-in-up" style={{ animationDelay: '0ms' }}>
                     <div className="flex flex-col md:flex-row gap-8 items-start">
                         {/* Profile Picture */}
                         <div className="flex-shrink-0">
@@ -107,7 +107,7 @@ export default function AboutMe({ darkMode, toggleDarkMode }) {
                 </section>
 
                 {/* Section 2: Achievements */}
-                <section className="mb-16">
+                <section className="mb-16 animate-fade-in-up" style={{ animationDelay: '200ms' }}>
                     <div className="flex items-center gap-3 mb-6">
                         <div className="bg-blue-600/10 dark:bg-emerald-500/20 p-2 rounded-full">
                             <svg className="w-6 h-6 text-blue-600 dark:text-emerald-400" fill="none" stroke="currentColor" viewBox="0 0 24 24">
@@ -144,7 +144,7 @@ export default function AboutMe({ darkMode, toggleDarkMode }) {
                 </section>
 
                 {/* Section 3: Gallery */}
-                <section>
+                <section className="animate-fade-in-up" style={{ animationDelay: '400ms' }}>
                     <div className="flex items-center gap-3 mb-6">
                         <div className="bg-blue-600/10 dark:bg-emerald-500/20 p-2 rounded-full">
                             <svg className="w-6 h-6 text-blue-600 dark:text-emerald-400" fill="none" stroke="currentColor" viewBox="0 0 24 24">
@@ -173,7 +173,7 @@ export default function AboutMe({ darkMode, toggleDarkMode }) {
             </div>
 
             {/* Footer */}
-            <footer className="mt-16 border-t border-gray-200 dark:border-[#2a2a2a] py-8">
+            <footer className="mt-16 border-t border-gray-200 dark:border-[#2a2a2a] py-8 animate-fade-in-up" style={{ animationDelay: '600ms' }}>
                 <div className="max-w-6xl mx-auto px-4 sm:px-6 text-center text-gray-500 dark:text-gray-400 text-sm">
                     <p>© 2026 Edward Jomari Garcia. All rights reserved.</p>
                 </div>
