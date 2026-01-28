@@ -18,7 +18,7 @@ export default function HeroCard() {
                     with clean code and creative design.
                 </p>
             </div>
-            <div className="flex gap-3">
+            <div className="flex gap-3 flex-wrap">
                 <button
                     onClick={() => navigate('/about')}
                     className="bg-blue-600 hover:bg-blue-700 dark:bg-emerald-600 dark:hover:bg-emerald-700 text-white px-6 py-3 rounded-full transition-colors font-medium flex items-center gap-2"
@@ -28,9 +28,16 @@ export default function HeroCard() {
                         <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M10 6H6a2 2 0 00-2 2v10a2 2 0 002 2h10a2 2 0 002-2v-4M14 4h6m0 0v6m0-6L10 14" />
                     </svg>
                 </button>
-                <button className="bg-transparent hover:bg-blue-600 dark:hover:bg-emerald-600 hover:text-white px-6 py-3 rounded-full transition-all duration-300 font-medium border border-gray-300 dark:border-[#3a3a3a] text-gray-800 dark:text-gray-200">
-                    Get in Touch
-                </button>
+                <a
+                    href="/Garcia_Resume.pdf"
+                    download="Garcia_Resume.pdf"
+                    className="bg-transparent hover:bg-blue-600 dark:hover:bg-emerald-600 hover:text-white px-6 py-3 rounded-full transition-all duration-300 font-medium border border-gray-300 dark:border-[#3a3a3a] text-gray-800 dark:text-gray-200 flex items-center gap-2"
+                >
+                    <svg className="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                        <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M12 10v6m0 0l-3-3m3 3l3-3m2 8H7a2 2 0 01-2-2V5a2 2 0 012-2h5.586a1 1 0 01.707.293l5.414 5.414a1 1 0 01.293.707V19a2 2 0 01-2 2z" />
+                    </svg>
+                    Download CV
+                </a>
             </div>
         </div>
     );

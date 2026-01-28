@@ -9,7 +9,7 @@ import CTACard from '../components/CTACard';
 export default function Home() {
     return (
         <>
-            <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-4 lg:gap-3 auto-rows-[minmax(180px,auto)] lg:auto-rows-fr lg:flex-1 lg:min-h-0">
+            <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-4 lg:gap-3 auto-rows-[minmax(180px,auto)]">
                 <HeroCard />
                 <TechStackCard />
                 <LocationCard />
@@ -19,7 +19,7 @@ export default function Home() {
                 <CTACard />
             </div>
 
-            <footer className="mt-4 lg:mt-3 lg:flex-shrink-0 text-center text-gray-500 dark:text-gray-400 text-sm border-t border-gray-200 dark:border-[#2a2a2a] pt-4 lg:pt-3">
+            <footer className="mt-6 lg:mt-5 text-center text-gray-500 dark:text-gray-400 text-sm border-t border-gray-200 dark:border-[#2a2a2a] pt-5 lg:pt-4">
                 <p>© 2026 Edward Jomari Garcia. All rights reserved.</p>
             </footer>
         </>

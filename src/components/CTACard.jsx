@@ -5,9 +5,12 @@ export default function CTACard() {
                 <h3 className="text-2xl md:text-3xl font-bold mb-2 text-white">Let's work together</h3>
                 <p className="text-blue-100 dark:text-emerald-100">Have a project in mind? I'd love to hear about it.</p>
             </div>
-            <button className="bg-white hover:bg-blue-50 dark:hover:bg-emerald-50 text-blue-600 dark:text-emerald-700 px-6 py-3 rounded-full transition-colors font-medium whitespace-nowrap flex items-center gap-2">
+            <a
+                href="mailto:edwardjomari@gmail.com?subject=Project Inquiry&body=Hi, I'd like to discuss a project with you."
+                className="bg-white hover:bg-blue-50 dark:hover:bg-emerald-50 text-blue-600 dark:text-emerald-700 px-6 py-3 rounded-full transition-colors font-medium whitespace-nowrap flex items-center gap-2"
+            >
                 Send a Message
-            </button>
+            </a>
         </div>
     );
 }

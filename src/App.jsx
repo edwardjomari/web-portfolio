@@ -33,8 +33,8 @@ function App() {
     <Router>
       <Routes>
         <Route path="/" element={
-          <div className="min-h-screen lg:h-screen lg:max-h-screen lg:overflow-hidden bg-white dark:bg-[#121212] text-gray-900 dark:text-gray-100 p-4 sm:p-6 md:p-8 lg:p-6 transition-colors duration-300">
-            <div className="max-w-7xl mx-auto lg:h-full lg:flex lg:flex-col">
+          <div className="min-h-screen bg-white dark:bg-[#121212] text-gray-900 dark:text-gray-100 p-4 sm:p-6 md:p-8 lg:p-6 transition-colors duration-300">
+            <div className="max-w-7xl mx-auto">
               <Header darkMode={darkMode} toggleDarkMode={toggleDarkMode} />
               <Home />
             </div>

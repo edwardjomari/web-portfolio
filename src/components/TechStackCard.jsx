@@ -1,5 +1,5 @@
 export default function TechStackCard() {
-    const technologies = ['React', 'JavaScript', 'Node.js', 'Tailwind CSS', 'Next.js', 'MySQL'];
+    const technologies = ['HTML5', 'CSS3', 'JavaScript', 'Tailwind CSS', 'React', 'Node.js', 'Express.js', 'Next.js', 'PHP', 'Laravel', 'MySQL', 'Firebase', 'Git', 'GitHub'];
 
     return (
         <div className="col-span-1 sm:row-span-2 lg:col-span-1 bg-white dark:bg-[#1e1e1e] rounded-3xl p-6 lg:p-5 border border-gray-200 dark:border-[#2a2a2a] flex flex-col justify-between gap-4 sm:gap-6 lg:gap-4 shadow-sm opacity-90 hover:opacity-100 transition-all ease-out duration-300 transform hover:-translate-y-0.5 hover:shadow-lg">
