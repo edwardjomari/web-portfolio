@@ -29,7 +29,7 @@ export default function HeroCard() {
                     </svg>
                 </button>
                 <a
-                    href="/Garcia_Resume.pdf"
+                    href={`${import.meta.env.BASE_URL}Garcia_Resume.pdf`}
                     download="Garcia_Resume.pdf"
                     className="bg-transparent hover:bg-blue-600 dark:hover:bg-emerald-600 hover:text-white px-6 py-3 rounded-full transition-all duration-300 font-medium border border-gray-300 dark:border-[#3a3a3a] text-gray-800 dark:text-gray-200 flex items-center gap-2"
                 >

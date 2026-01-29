@@ -25,8 +25,8 @@ export default function AboutMe({ darkMode, toggleDarkMode }) {
     ];
 
     const galleryImages = [
-        { id: 1, src: "/gallery/558894261_1137172438513330_850162699329479708_n.jpg", alt: "Gallery Image 1" },
-        { id: 2, src: "/gallery/491776199_1207799328020892_5966470127247330306_n.jpg", alt: "Gallery Image 2" }
+        { id: 1, src: `${import.meta.env.BASE_URL}gallery/558894261_1137172438513330_850162699329479708_n.jpg`, alt: "Gallery Image 1" },
+        { id: 2, src: `${import.meta.env.BASE_URL}gallery/491776199_1207799328020892_5966470127247330306_n.jpg`, alt: "Gallery Image 2" }
     ];
 
     return (
