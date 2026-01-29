@@ -1,5 +1,5 @@
 import { useState, useEffect } from 'react';
-import { HashRouter as Router, Routes, Route } from 'react-router-dom';
+import { Routes, Route } from 'react-router-dom';
 import Header from './components/Header';
 import Home from './pages/Home';
 import AboutMe from './pages/AboutMe';
@@ -30,8 +30,7 @@ function App() {
   };
 
   return (
-    <Router>
-      <Routes>
+    <Routes>
         <Route path="/" element={
           <div className="min-h-screen bg-white dark:bg-[#121212] text-gray-900 dark:text-gray-100 p-4 sm:p-6 md:p-8 lg:p-6 transition-colors duration-300">
             <div className="max-w-7xl mx-auto">
@@ -41,8 +40,7 @@ function App() {
           </div>
         } />
         <Route path="/about" element={<AboutMe darkMode={darkMode} toggleDarkMode={toggleDarkMode} />} />
-      </Routes>
-    </Router>
+    </Routes>
   );
 }
 
